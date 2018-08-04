@@ -1,0 +1,160 @@
+body{
+    background: url("img/tlo.png");  /*Background pattern from Subtle Patterns */
+    margin: 0;
+    padding: 0; 
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+header{
+  height: 170px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; 
+  margin-left: 9.3%;
+}
+
+#logo{
+    display: flex;
+    height: 150px;
+    width: 800px;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+#picture{
+    box-shadow: 3px 3px 30px 5px rgba(0,0,0,0.9);
+}
+
+header  a{
+    text-decoration: none;
+    color: #fff;
+   }
+
+header  a:hover{
+    text-decoration: none;
+    color: #fff;
+   }
+
+header  a:visited{
+    text-decoration: none;
+    color: #fff;
+   }
+
+header  a:active{
+    text-decoration: none;
+    color: #fff;
+   }
+
+header p{
+    font-size: 26px;
+    letter-spacing: 1px;
+   }
+  
+#container{
+    width: 100%;
+    min-height: 450px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#nav{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    border-right: 2px dotted #303030;
+    background-color: #2076b6;
+}
+
+ul a{
+   text-decoration: none;
+   color: #fff;
+}
+
+ul
+{
+	padding: 0;
+	margin: 0;
+	font-size: 24px;
+    line-height: 250%;
+    color: #303030;
+}
+
+#content{
+    display: flex;
+    width: 50%;
+    color: #303030;
+    background-color: #d07d0b;
+}
+
+h1{
+    color: #fff;
+    letter-spacing: 1px;
+    padding-left: 40px;
+    margin-top: 20px;
+}
+
+#content  a{
+    color: #303030;
+    padding-top: 
+}
+
+#tab{
+    width: 30%;
+    clear:both;
+    padding-left: 40px;
+    margin-left: 20px;
+}
+
+h3 {
+    color: #303030;
+    margin: 0;
+   
+}
+
+td, th{
+    
+    padding: 15px;
+    background-color: #d07d0b;
+}
+
+table{
+    -webkit-box-shadow: 3px 3px 30px 5px rgba(0,0,0,0.9);
+    -moz-box-shadow: 3px 3px 30px 5px rgba(0,0,0,0.9);
+    box-shadow: 3px 3px 30px 5px rgba(0,0,0,0.9);
+}
+
+th{
+    background-color: #2076b6;
+    color: white !important;
+}
+
+.gray{
+    color: #303030;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+table{
+   text-align: center;
+   margin-top: 40px;
+   margin-bottom: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+footer p > a{
+    color: #303030;
+}
+
+
